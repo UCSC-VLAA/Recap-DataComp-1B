@@ -35,8 +35,10 @@
 
 ---
 ## Breaking News 🔥🔥!!
+
 - (🔥 New) June. 12, 2024. 💥 We are excited to announce the release of Recap-DataComp-1B. Stay tuned for the upcoming release of our models!!!
-- Star 🌟us if you think it is helpful!!
+
+Star 🌟us if you think it is helpful!!
 
 
 ---
@@ -93,11 +95,11 @@ We are pleased to announce the release of our recaptioned datasets, including Re
 
 
 
-| Model                        | Type          | url                                                           |
-|:-----------------------------|:--------------|:--------------------------------------------------------------|
-| LLaVA-1.5-LLaMA3-8B          | Caption model | https://huggingface.co/tennant/llava-llama-3-8b-hqedit        |
-| Recap-CLIP                   | CLIP          | incoming                                                      |
-| Recap-DiT                    | text2image    | incoming                                                      |
+| Model                        | Type              | url                                                           |
+|:-----------------------------|:------------------|:--------------------------------------------------------------|
+| LLaVA-1.5-LLaMA3-8B          | Our caption model | https://huggingface.co/tennant/llava-llama-3-8b-hqedit        |
+| Recap-CLIP                   | CLIP              | incoming                                                      |
+| Recap-DiT                    | text2image        | incoming                                                      |
 
 
 
@@ -126,18 +128,18 @@ img2dataset --url_list Recap-DataComp-1B/train_data  --input_format "parquet" \
 [//]: # ()
 [//]: # (## Better Text-to-Image Diffusion)
 
----
+
 
 ## 💪To-Do List
 
 - [] Model Release
 
----
+
 
 ## 📖BibTeX
   
 
---- 
+
 
 ## 🤗Acknowledgements
 This work is partially supported by a gift from Adobe, TPU Research Cloud (TRC) program, Google
