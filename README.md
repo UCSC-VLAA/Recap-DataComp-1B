@@ -5,7 +5,7 @@
 [//]: # (</p>)
 
 
-### <div align="center">👉 What If We Recaption Billions of Web Images with LLaMA-3?<div> 
+# <div align="center">👉 What If We Recaption Billions of Web Images with LLaMA-3?<div> 
 
 [//]: # (### <div align="center"> ICLR 2024 Spotlight <div> )
 
@@ -47,6 +47,7 @@
 ---
 
 ## Contents
+* [Dataset & Model Zoo](#-dataset-model)
 * [Download Datasets](#-download-data)
 * [Acknowledgement](#acknowledgements)
 * [Citation](#bibtex)
@@ -78,7 +79,31 @@ with users’ text instructions, especially in following complex queries.
 ![Examples of the original caption and our recaption in DataComp-1B, and word distributions.](assets/images/teaser.png)
 
 ---
-# 🔥🔥Download dataset
+
+## 🔥🔥Dataset and Model Zoo
+
+We are pleased to announce the release of our recaptioned datasets, including Recap-DataComp-1B and Recap-COCO-30K, as well as our caption model, LLaVA-1.5-LLaMA3-8B. Stay tuned for the upcoming release of our CLIP and T2I models!
+
+| Dataset           | #Samples | url                                                                                                                                                                                                          |
+|:------------------|:---------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Recap-DataComp-1B | 1.24B    |https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B |
+| Recap-COCO-30K    | 30.5K    |https://huggingface.co/datasets/UCSC-VLAA/Recap-COCO-30K |
+
+
+
+
+
+| Model                        | Type          | url                                                           |
+|:-----------------------------|:--------------|:--------------------------------------------------------------|
+| LLaVA-1.5-LLaMA3-8B          | Caption model | https://huggingface.co/tennant/llava-llama-3-8b-hqedit        |
+| Recap-CLIP                   | CLIP          | incoming                                                      |
+| Recap-DiT                    | text2image    | incoming                                                      |
+
+
+
+---
+
+## 🔥🔥Download dataset
 
 1. first download all the shards contains url and captions from [huggingface](https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B/tree/main/data/train_data).
 2. second use [img2dataset](https://github.com/rom1504/img2dataset) tool to  download the images and captions.
@@ -90,6 +115,8 @@ img2dataset --url_list Recap-DataComp-1B/train_data  --input_format "parquet" \
 --save_additional_columns '["org_caption"]' --enable_wandb True
 ```
 
+---
+
 [//]: # (# 🔥🔥🔥 Why Recap-Datacomp-1B? )
 
 [//]: # (## Better CLIP)
@@ -99,19 +126,25 @@ img2dataset --url_list Recap-DataComp-1B/train_data  --input_format "parquet" \
 [//]: # ()
 [//]: # (## Better Text-to-Image Diffusion)
 
+---
+
 ## 💪To-Do List
 
 - [] Model Release
 
+---
 
-# 📖BibTeX
+## 📖BibTeX
   
-    
-# 🤗Acknowledgements
+
+--- 
+
+## 🤗Acknowledgements
 This work is partially supported by a gift from Adobe, TPU Research Cloud (TRC) program, Google
 Cloud Research Credits program, AWS Cloud Credit for Research program, Edinburgh International
 Data Facility (EIDF) and the Data-Driven Innovation Programme at the University of Edinburgh.
 
+---
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=UCSC-VLAA/Recap-DataComp-1B&type=Date)](https://star-history.com/#UCSC-VLAA/Recap-DataComp-1B&Date)
