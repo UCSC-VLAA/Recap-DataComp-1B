@@ -79,7 +79,7 @@ with users’ text instructions, especially in following complex queries.
 ---
 
 ![Examples of the original caption and our recaption in DataComp-1B, and word distributions.](assets/images/teaser.png)
-
+![Examples of the generateed results of different DiT models trained on Recap-DataComp-1B.](assets/images/visual_00.png)
 ---
 
 ## 🔥🔥Dataset and Model Zoo
