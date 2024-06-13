@@ -17,7 +17,7 @@
 
 
 > [**What If We Recaption Billions of Web Images with LLaMA-3?**](https://www.haqtu.me/Recap-Datacomp-1B/)<br>
-> [Xianhang Li*](https://xhl-video.github.io/xianhangli/), [Haoqin Tu*](), 
+> [Xianhang Li*](https://xhl-video.github.io/xianhangli/), [Haoqin Tu*](https://www.haqtu.me), 
 > [Mude Hui*](https://thefllood.github.io/mudehui.github.io/), [Zeyu Wang*](https://scholar.google.com/citations?user=hqDyTg8AAAAJ&hl=zh-CN&oi=ao),
 > [Bingchen Zhao*](https://bzhao.me/),
 > [Junfei Xiao](https://lambert-x.github.io/), [Sucheng Ren](https://oliverrensu.github.io/), 
@@ -31,7 +31,7 @@
 ---
 ## Breaking News 🔥🔥!!
 
-- (🔥 New) June. 12, 2024. 💥 We are excited to announce the release of Recap-DataComp-1B. Stay tuned for the upcoming release of our models!!!
+- [🔥June. 12, 2024.] 💥 We are excited to announce the release of Recap-DataComp-1B. Stay tuned for the upcoming release of our models!!!
 
 Star 🌟us if you think it is helpful!!
 
@@ -93,7 +93,7 @@ We are pleased to announce the release of our recaptioned datasets, including Re
 | Model                        | Type              | url                                                           |
 |:-----------------------------|:------------------|:--------------------------------------------------------------|
 | LLaVA-1.5-LLaMA3-8B          | Our caption model | https://huggingface.co/tennant/llava-llama-3-8b-hqedit        |
-| Recap-CLIP                   | CLIP              | incoming                                                      |
+| Recap-CLIP                   | CLIP              | https://huggingface.co/UCSC-VLAA/ViT-L-16-HTxt-Recap-CLIP     |
 | Recap-DiT                    | text2image        | incoming                                                      |
 
 
