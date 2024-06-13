@@ -1,20 +1,15 @@
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="asset/logo.png"  height=120>)
-
-[//]: # (</p>)
 
 
 # <div align="center">👉 What If We Recaption Billions of Web Images with LLaMA-3?<div> 
 
-[//]: # (### <div align="center"> ICLR 2024 Spotlight <div> )
+
 
 <div align="center">
   <a href="https://github.com/UCSC-VLAA/Recap-DataComp-1B"><img src="https://img.shields.io/static/v1?label=Recap-DataComp1B Code&message=Github&color=blue&logo=github-pages"></a> &ensp;
 
   <a href="https://www.haqtu.me/Recap-Datacomp-1B"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a> &ensp;
   <a href="https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B"><img src="https://img.shields.io/static/v1?label=Recap-DataComp1B&message=HF&color=yellow"></a> &ensp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Recap-DataComp1B&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://arxiv.org/abs/2406.08478"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Recap-DataComp1B&color=red&logo=arxiv"></a> &ensp;
 </div>
 
 ---
@@ -107,8 +102,8 @@ We are pleased to announce the release of our recaptioned datasets, including Re
 
 ## 🔥🔥Download dataset
 
-1. first download all the shards contains url and captions from [huggingface](https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B/tree/main/data/train_data).
-2. second use [img2dataset](https://github.com/rom1504/img2dataset) tool to  download the images and captions.
+1. Download all the shards contains url and captions from [huggingface](https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B/tree/main/data/train_data).
+2. Use [img2dataset](https://github.com/rom1504/img2dataset) tool to  download the images and captions.
 3. Example script:
 ```bash
 img2dataset --url_list Recap-DataComp-1B/train_data  --input_format "parquet" \
@@ -118,15 +113,6 @@ img2dataset --url_list Recap-DataComp-1B/train_data  --input_format "parquet" \
 ```
 
 ---
-
-[//]: # (# 🔥🔥🔥 Why Recap-Datacomp-1B? )
-
-[//]: # (## Better CLIP)
-
-[//]: # ()
-[//]: # ()
-[//]: # ()
-[//]: # (## Better Text-to-Image Diffusion)
 
 
 
@@ -138,7 +124,14 @@ img2dataset --url_list Recap-DataComp-1B/train_data  --input_format "parquet" \
 
 ## 📖BibTeX
   
-
+```
+@article{li2024recaption,
+      title={What If We Recaption Billions of Web Images with LLaMA-3?}, 
+      author={Xianhang Li and Haoqin Tu and Mude Hui and Zeyu Wang and Bingchen Zhao and Junfei Xiao and Sucheng Ren and Jieru Mei and Qing Liu and Huangjie Zheng and Yuyin Zhou and Cihang Xie},
+      journal={arXiv preprint arXiv:2406.08478},
+      year={2024}
+}
+```
 
 
 ## 🤗Acknowledgements
